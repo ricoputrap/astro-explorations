@@ -57,7 +57,7 @@ const VerticalBarChart: React.FC<Props> = ({ title, labels, datasets }) => {
   return (
     <div>
       <h1>Vertical Bar Chart</h1>
-      <Bar options={options} data={data} />;
+      <Bar options={options} data={data} />
     </div>
   )
 }
