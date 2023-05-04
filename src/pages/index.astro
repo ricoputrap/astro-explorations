@@ -2,12 +2,16 @@
 import Layout from '../layouts/Layout.astro';
 import Charts from '../components/Charts';
 import Counter from '../components/react/Counter';
+import TryCatchHandling from '../components/react/TryCatchHandling';
 ---
 
 <Layout title="Welcome to Astro.">
 	<main>
 		<div class="container">
-			<Counter client:visible />
+			<div class="">
+				<Counter client:visible />
+				<TryCatchHandling client:visible />
+			</div>
 			<Charts client:visible />
 		</div>
 	</main>
